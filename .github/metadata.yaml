@@ -1,0 +1,8 @@
+# .github/metadata.yaml
+description: "Finite enumerable conformances for Interval."
+topics:
+  - primitives
+  - finite
+homepage: "https://swift-institute.org"
+readme:
+  family: E
