@@ -2,12 +2,12 @@
 // Conforms Interval.Bound (swift-interval-primitives) to Finite.Enumerable
 // (this package). finite → interval is a downward dependency.
 
+import Cardinal_Primitives
 public import Finite_Enumerable_Primitives
 public import Interval_Primitives
-import Cardinal_Primitives
 import Ordinal_Primitives
 
-extension Interval.Bound: Finite.Enumerable {
+extension Interval.Bound: @retroactive Finite.Enumerable {
     /// Number of bound values.
     @inlinable
     public static var count: Cardinal { 2 }
